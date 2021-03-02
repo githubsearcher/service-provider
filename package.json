@@ -9,7 +9,7 @@
     "start": "nodemon ./dist/app.js",
     "prod": "npm run build && npm run start"
   },
-  "author": "",
+  "author": "Archana Gupta",
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.16.1",

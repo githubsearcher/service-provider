@@ -10,6 +10,6 @@ export class ServiceRouter {
         this.initRoutes();
     }
     initRoutes(){
-     this.router.get('/',  this._serviceController.getUsers);
+     this.router.get('/',  this._serviceController.getServices);
     }
 }

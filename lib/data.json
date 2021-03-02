@@ -1,0 +1,92 @@
+
+[{
+  "name": "BSNL",
+  "lowest_price": 100,
+  "rating": 5,
+  "max_speed": "40mbps",
+  "description": "This is one of the best-selling and most popular BSNL plan that you can get. The plan has a validity of one month. You will be allowed to surf up to 3300 GB of data with a speed of 30 Mbps",
+  "contact_number": "1800-345-3443",
+  "email": "customer@bsnl.com",
+  "imageurl" : "https://seeklogo.com/images/B/bsnl-logo-D9CE2352F1-seeklogo.com.png"
+},
+{
+  "name": "Airtel",
+  "lowest_price": 450,
+  "rating": 4,
+  "max_speed": "70mbps",
+  "description": "The Rs. 450 is providing 40 Mbps speed along with unlimited data. It is offering unlimited calling (including local and STD calls).",
+  "contact_number": "0800-34530443",
+  "email": "customer@airtel.com",
+  "imageurl" : "https://1000logos.net/wp-content/uploads/2018/01/Airtel-Logo.png"
+},
+{
+  "name": "Hathway",
+  "lowest_price": 600,
+  "rating": 5,
+  "max_speed": "80mbps",
+  "description": "Our internet plan available",
+  "contact_number": "1800-121-8796",
+  "email": "Speed and connectivity is good. No qualms about that. The standout aspect of hathway broadband is their below par customer service and how they cheat people by tempting them with offers. Here is my experience.",
+  "imageurl" : "https://pbs.twimg.com/profile_images/773483068120268800/qv9lKhy-_400x400.jpg"
+},
+{
+  "name": "BBNL/BNET",
+  "lowest_price": 850,
+  "rating": 5,
+  "max_speed": "120mbps",
+  "description": "This is one of the best-selling and most popular BSNL plan that you can get. The plan has a validity of one month. You will be allowed to surf up to 3300 GB of data with a speed of 30 Mbps.",
+  "contact_number": "1200-315-9087",
+  "email": "customer@bbnl.com",
+  "imageurl" : "https://image3.mouthshut.com/images/imagesp/925702950s.jpg"
+},
+{
+  "name": "ACL Broadband",
+  "lowest_price": 600,
+  "rating": 4,
+  "max_speed": "80mbps",
+  "description": "Broadband is a type of high-speed internet connection, while WiFi refers to an in-home wireless connection.",
+  "contact_number": "1110-345-9088",
+  "email": "customer@acl.com",
+  "imageurl" : ""
+},
+{
+  "name": "YOU Broadband",
+  "lowest_price": 700,
+  "rating": 4,
+  "max_speed": "100mbps",
+  "description": "The term broadband commonly refers to high-speed Internet access that is always on and faster than the traditional dial-up access.",
+  "contact_number": "1900-555-3908",
+  "email": "customer@youb.com",
+  "imageurl" : "https://upload.wikimedia.org/wikipedia/commons/5/54/Connect_Broadband_Logo.png"
+},
+{
+  "name": "Tikona Digital Network",
+  "lowest_price": 400,
+  "rating": 3,
+  "max_speed": "50mbps",
+  "description": "Tikona Secured Wireless Broadband uses Wireless technology on last mile to reach your building to provide Broadband.",
+  "contact_number": "1100-121-3043",
+  "email": "customer@tikona.com",
+  "imageurl" : "http://companies.naukri.com/tikona-dev/wp-content/uploads/sites/26851/2018/09/web.png"
+},
+{
+  "name": "Railtel",
+  "lowest_price": 1500,
+  "rating": 5,
+  "max_speed": "150mbps",
+  "description": "The prices are slightly higher than BSNL FTTH (Bharat Fiber) broadband. Connectivity is excellent and noticed 0 mins downtime in a week.",
+  "contact_number": "1800-121-9080",
+  "email": "customer@railtel.com",
+  "imageurl" : "https://download.logo.wine/logo/RailTel_Corporation_of_India/RailTel_Corporation_of_India-Logo.wine.png"
+},
+{
+  "name": "Reliance DSL",
+  "lowest_price": 900,
+  "rating": 5,
+  "max_speed": "100mbps",
+  "description": "Reliance DSL offers a range of JioFiber broadband plans that provide customers unlimited high-speed data.",
+  "contact_number": "1200-343-7896",
+  "email": "customer@reliance.com",
+  "imageurl" : "http://www.logotaglines.com/wp-content/uploads/2016/08/reliance-communication-logo.png"
+}
+]

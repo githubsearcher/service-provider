@@ -10,19 +10,29 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ServiceController = void 0;
+const fs = require("fs");
+const path = require('./../data.json');
 class ServiceController {
     constructor() {
     }
-    // get list of user
-    getUsers(req, res, next) {
+    // get list of services
+    getServices(req, res, next) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                // let users: any = 
-                // if(users.length > 0) {
-                //     res.status(200).send(users);
-                // } else {
-                //     res.status(404).send('Yet no user exist !!');  
-                // }
+                //  console.log('isndie', path)
+                // fs.readFile('./../data.json', 'utf8', (err, jsonString) => {
+                //   console.log('v............', jsonString)
+                //   if(err) {
+                //     console.log('Error reading file from disk', err)
+                //     return;
+                //   }
+                //   console.log('jsonString...', jsonString)
+                //   // const serviceData = JSON.parse(jsonString);
+                //   // console.log('jsonString...', serviceData)
+                //   // res.status(200).json({data : jsonString});
+                // });
+                const jsonString = yield fs.readFileSync(path);
+                console.log('jsonString', jsonString);
             }
             catch (e) {
                 res.status(400).json(e);
