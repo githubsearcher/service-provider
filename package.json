@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node ./lib/app.ts",
-    "start": "nodemon ./dist/lib/app.js",
+    "start": "nodemon ./dist/app.js",
     "prod": "npm run build && npm run start"
   },
   "author": "",
