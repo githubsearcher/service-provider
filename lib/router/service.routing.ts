@@ -1,6 +1,6 @@
 import * as express from 'express';
 import { Router } from 'express';
-import { ServiceController }from '../controller/service';
+import { ServiceController }from '../controller/service.controller';
 export class ServiceRouter {
     private _serviceController : ServiceController;
     router: Router;
