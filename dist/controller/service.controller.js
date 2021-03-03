@@ -11,7 +11,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ServiceController = void 0;
 const fs = require("fs");
-const path = require('./../data.json');
 class ServiceController {
     constructor() {
     }
@@ -19,20 +18,14 @@ class ServiceController {
     getServices(req, res, next) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                //  console.log('isndie', path)
-                // fs.readFile('./../data.json', 'utf8', (err, jsonString) => {
-                //   console.log('v............', jsonString)
-                //   if(err) {
-                //     console.log('Error reading file from disk', err)
-                //     return;
-                //   }
-                //   console.log('jsonString...', jsonString)
-                //   // const serviceData = JSON.parse(jsonString);
-                //   // console.log('jsonString...', serviceData)
-                //   // res.status(200).json({data : jsonString});
-                // });
-                const jsonString = yield fs.readFileSync(path);
-                console.log('jsonString', jsonString);
+                fs.readFile('./lib/data.json', function (err, jsonString) {
+                    // Check for errors
+                    if (err)
+                        throw err;
+                    // Converting to JSON
+                    const data = JSON.parse(jsonString.toString());
+                    res.status(200).json({ data: data });
+                });
             }
             catch (e) {
                 res.status(400).json(e);

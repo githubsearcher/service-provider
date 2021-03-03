@@ -9,6 +9,7 @@ export class ServiceRouter {
         this._serviceController = new ServiceController();
         this.initRoutes();
     }
+    
     initRoutes(){
      this.router.get('/',  this._serviceController.getServices);
     }
